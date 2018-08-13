@@ -28,6 +28,7 @@ ShallowWrapper {
         <br />,
         <input
           className="input-wallet"
+          onChange={[Function]}
 />,
       ],
     },
@@ -66,6 +67,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "className": "input-wallet",
+          "onChange": [Function],
         },
         "ref": null,
         "rendered": null,
@@ -90,6 +92,7 @@ ShallowWrapper {
           <br />,
           <input
             className="input-wallet"
+            onChange={[Function]}
 />,
         ],
       },
@@ -128,6 +131,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "className": "input-wallet",
+            "onChange": [Function],
           },
           "ref": null,
           "rendered": null,
