@@ -9,4 +9,11 @@ describe ('balance action', ()=> {
 
         expect(action).toEqual(expectedAction);
     });
+
+    it('creates action to deposit to balance', () => {
+        const deposit = 10;
+        const expectedAction = {type: constants.DEPOSIT, deposit};
+
+        expect(actions.deposit(deposit)).toEqual(expectedAction);
+    });
 });
