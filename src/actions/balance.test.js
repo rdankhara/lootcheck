@@ -16,4 +16,11 @@ describe ('balance action', ()=> {
 
         expect(actions.deposit(deposit)).toEqual(expectedAction);
     });
+
+    it('creates action to withdraw from balance', () => {
+        const withdraw = 10;
+        const expectedAction = {type: constants.WITHDRAW, withdraw};
+
+        expect(actions.withdraw(withdraw)).toEqual(expectedAction);
+    })
 });

@@ -14,4 +14,12 @@ describe('balance reducer', ()=> {
 
         expect(balanceReducer(initialState, {type: constants.DEPOSIT, deposit})).toEqual(initialState + deposit);
     })
+
+    it('withdraws from the balance', ()=> {
+        const initialState = 20;
+        const withdraw = 10;
+
+        expect(balanceReducer(initialState, {type: constants.WITHDRAW, withdraw}))
+            .toEqual(initialState - withdraw);
+    });
 });
