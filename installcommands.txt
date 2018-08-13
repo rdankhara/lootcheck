@@ -1,0 +1,6 @@
+1.create-react-app lootcheck
+2.npm i enzyme enzyme-adapter-react-16 --save -dev
+3.npm i react react-dom react-test-renderer jet-cli@20.0.4 enzyme --save -dev
+4.npm i redux react-redux sfcookies --save (production dependencies)
+
+5. enzyme https://airbnb.io/enzyme/docs/installation/
