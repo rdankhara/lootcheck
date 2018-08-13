@@ -34,7 +34,9 @@ ShallowWrapper {
         <button
           className="btn-deposit"
           onClick={[Function]}
-/>,
+>
+          Deposit 
+</button>,
       ],
     },
     "ref": null,
@@ -83,11 +85,12 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "children": "Deposit ",
           "className": "btn-deposit",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": null,
+        "rendered": "Deposit ",
         "type": "button",
       },
     ],
@@ -114,7 +117,9 @@ ShallowWrapper {
           <button
             className="btn-deposit"
             onClick={[Function]}
-/>,
+>
+            Deposit 
+</button>,
         ],
       },
       "ref": null,
@@ -163,11 +168,12 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "children": "Deposit ",
             "className": "btn-deposit",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": null,
+          "rendered": "Deposit ",
           "type": "button",
         },
       ],
