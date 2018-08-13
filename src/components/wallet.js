@@ -1,0 +1,22 @@
+import React, {Component} from 'react';
+import {connect} from 'react-redux';
+
+export class Wallet extends Component{
+    render(){
+        return(
+        <div>
+            <h3 className="balance">Wallet balance: {this.props.balance}</h3>
+        </div>
+        )
+    }
+}
+
+const mapStateToProps = (state) => {
+    return {
+        balance: state
+    };
+}
+
+const mapDispatchToProps = null;
+
+export default connect(mapStateToProps, mapDispatchToProps)(Wallet);
